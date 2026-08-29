@@ -1,4 +1,4 @@
-﻿/ {
+/ {
 leds {
 compatible = "gpio-leds";
 led0: led_0 {
@@ -9,5 +9,6 @@ label = "User LED";
 
 aliases {
 led0 = &led0;
+app-led = &led0;
 };
 };
